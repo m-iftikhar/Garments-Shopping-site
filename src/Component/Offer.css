@@ -1,0 +1,153 @@
+.offers{
+    width: 65%;
+    height: 60vh;
+    display: flex;
+    margin: auto;
+    padding: 0% 140px;
+    background: linear-gradient(180deg , #fed1ff 0% ,#e1ffea22 60%);
+    margin-bottom: 150px;
+<<<<<<< HEAD
+=======
+    margin-top: 100px;
+>>>>>>> 4ed2e08 (add admin folder and backend folder)
+}
+.offers-left{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+}
+.offers h1{
+    color: #171717;
+    font-size: 18px;
+    font-weight: 600;
+}
+.offers p{
+    color: #171717;
+    font-size: 22px;
+    font-weight: 600;
+}
+button{
+    width: 280px;
+    height: 70px;
+    background-color: #ff4141;
+    border-radius: 35px;
+    color: azure;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.offers-right{
+    
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 30px;
+}
+.offers-right img{
+    height: 400px;
+<<<<<<< HEAD
+=======
+}
+@media(max-width:1280px){
+     .offers{
+        padding: 0px 80px;
+        margin-bottom: 120px;
+    
+     }
+     .offers-left h1{
+        font-size: 40px;
+     }
+     .offers-left p{
+        font-size: 18px;
+     }
+     .offers-right img{
+        width: 300px;
+     }
+     .offers-left button{
+        width: 220px;
+        height: 50px;
+        font-size: 18px;
+     }
+     .offers-right {
+        padding-top: 30px;
+     }
+}
+@media(max-width:1024px){
+    .offers{
+       padding: 0px 80px;
+       margin-bottom: 80px;
+       height: 40vh;
+   
+    }
+    .offers-left h1{
+       font-size: 32px;
+    }
+    .offers-left p{
+       font-size: 16px;
+    }
+    .offers-right img{
+       width: 200px;
+       height: auto;
+    }
+    .offers-left button{
+       width: 160px;
+       height: 40px;
+       font-size: 16px;
+    }
+    .offers-right {
+       padding-top: 30px;
+    }
+}
+@media(max-width:800px){
+    .offers{
+       margin-bottom: 60px;
+    }
+    .offers-left h1{
+       font-size: 26px;
+    }
+    .offers-left p{
+       font-size: 14px;
+    }
+    .offers-right img{
+       width: 160px;
+       height: auto;
+    }
+    .offers-left button{
+       width: 120px;
+       height: 30px;
+       font-size: 14px;
+    }
+    .offers-right {
+       padding-top: 30px;
+    }
+}
+@media(max-width:500px){
+    .offers{
+       margin-bottom: 50px;
+       height: 25vh;
+
+    }
+    .offers-left h1{
+       font-size: 22px;
+    }
+    .offers-left p{
+       font-size: 11px;
+    }
+    .offers-right img{
+       width: 120px;
+       height: auto;
+    }
+    .offers-left button{
+       width: 100px;
+       height: 25px;
+       font-size: 11px;
+       margin-top: 12px;
+    }
+    .offers-right {
+       padding-top: 20px;
+    }
+>>>>>>> 4ed2e08 (add admin folder and backend folder)
+}

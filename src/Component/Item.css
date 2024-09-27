@@ -1,0 +1,86 @@
+.item{
+<<<<<<< HEAD
+    width: 350px;
+=======
+    width: 280px;
+}
+.item img{
+    width:280px;
+>>>>>>> 4ed2e08 (add admin folder and backend folder)
+}
+.item p{
+    margin: 6px 0px;
+}
+.item-prices{
+    display: flex;
+    gap: 20px;
+}
+.item-price-new{
+    color: #374151;
+    font-size: 18px;
+    font-weight: 600;
+}
+.item-price-old{
+    color: #8c8c8c;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: line-through;
+}
+.item:hover{
+    transform: scale(1.05);
+    transition: 0.7s;
+}
+<<<<<<< HEAD
+=======
+@media(max-width:1280px){
+     .item{
+        width: 220px;
+     }
+     .item img{
+        width: 220px;
+        font-size: 14px;
+     }
+     .item-price-old{
+        font-size: 14px;
+     }
+}
+@media(max-width:1024px){
+    .item{
+        width: 170px;
+     }
+     .item img{
+        width: 170px;
+        font-size: 13px;
+     }
+     .item-price-old{
+        font-size: 13px;
+     }
+
+}
+@media(max-width:800px){
+    .item{
+        width: 120px;
+     }
+     .item img{
+        width: 120px;
+        font-size: 11px;
+     }
+     .item-price-old{
+        font-size: 11px;
+     }
+
+}
+@media(max-width:500px){
+    .item{
+        width: 80px;
+     }
+     .item img{
+        width: 80px;
+        font-size: 11px
+     }
+     .item-price-old{
+        font-size: 11px;
+     }
+
+}
+>>>>>>> 4ed2e08 (add admin folder and backend folder)

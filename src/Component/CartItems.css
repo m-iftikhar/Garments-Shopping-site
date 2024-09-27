@@ -1,0 +1,277 @@
+<<<<<<< HEAD
+.cartitems{
+    margin: 100px 170px;
+}
+.cartitems hr{
+=======
+.cartitems {
+    margin: 100px 170px;
+}
+
+.cartitems hr {
+>>>>>>> 4ed2e08 (add admin folder and backend folder)
+    height: 3px;
+    background: #e3e3e3;
+    border: 0;
+}
+<<<<<<< HEAD
+.cartitems-format-main{
+    display: flex;
+    /* grid-template-columns: o.5fr 2fr 1fr 1fr 1fr 1fr; */
+=======
+
+.cartitems-format-main {
+    display: flex;
+>>>>>>> 4ed2e08 (add admin folder and backend folder)
+    align-items: center;
+    gap: 75px;
+    padding: 20px 0px;
+    color: #454545;
+    font-size: 18px;
+    font-weight: 600;
+}
+<<<<<<< HEAD
+.cartitems-format{
+    font-size: 17px;
+    font-weight: 600;
+}
+.carticon-product-icon{
+    height: 62px;
+}
+.remove-icon{
+=======
+
+.cartitems-format {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.carticon-product-icon {
+    height: 62px;
+}
+
+.remove-icon {
+>>>>>>> 4ed2e08 (add admin folder and backend folder)
+    width: 15px;
+    margin: 0 40px;
+    cursor: pointer;
+}
+<<<<<<< HEAD
+.cartitems-quantity{
+=======
+
+.cartitems-quantity {
+>>>>>>> 4ed2e08 (add admin folder and backend folder)
+    width: 64px;
+    height: 50px;
+    border: 2px solid #ebebeb;
+    background-color: white;
+    color: black;
+    margin-bottom: 15px;
+}
+<<<<<<< HEAD
+.cartitems-down{
+    display: flex;
+    margin: 100px 0px;
+}
+.cartitems-total{
+=======
+
+.cartitems-down {
+    display: flex;
+    margin: 100px 0px;
+}
+
+.cartitems-total {
+>>>>>>> 4ed2e08 (add admin folder and backend folder)
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-right: 200px;
+    gap: 40px;
+<<<<<<< HEAD
+
+}
+.cartitems-total-item{
+=======
+}
+
+.cartitems-total-item {
+>>>>>>> 4ed2e08 (add admin folder and backend folder)
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0px;
+}
+<<<<<<< HEAD
+.cartitems-total button{
+=======
+
+.cartitems-total button {
+>>>>>>> 4ed2e08 (add admin folder and backend folder)
+    width: 262px;
+    height: 58px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+<<<<<<< HEAD
+.promocode{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+}
+.promocode input{
+=======
+
+.promocode {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.promocode input {
+>>>>>>> 4ed2e08 (add admin folder and backend folder)
+    width: 400px;
+    height: 40px;
+    border-radius: 2px;
+    font-size: 20px;
+    color: black;
+}
+<<<<<<< HEAD
+   .promocode button{
+=======
+
+.promocode button {
+>>>>>>> 4ed2e08 (add admin folder and backend folder)
+    width: 262px;
+    height: 58px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: black;
+}
+<<<<<<< HEAD
+.promocode p{
+    color: #454545;
+     font-weight: 700;
+    font-size: 24px;
+}
+=======
+
+.promocode p {
+    color: #454545;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+@media(max-width:1280px) {
+    .cartitems {
+        margin: 80px 100px;
+    }
+
+    .cartitems-format-main {
+        gap: 50px;
+        font-size: 16px;
+    }
+
+    .cartitems-quantity {
+        width: 50px;
+        height: 40px;
+    }
+
+    .cartitems-total {
+        margin-right: 100px;
+    }
+
+    .promocode input {
+        width: 300px;
+    }
+}
+
+@media(max-width:1024px) {
+    .cartitems {
+        margin: 60px 50px;
+    }
+
+    .cartitems-format-main {
+        gap: 30px;
+        font-size: 14px;
+    }
+
+    .cartitems-quantity {
+        width: 40px;
+        height: 35px;
+    }
+
+    .cartitems-total {
+        margin-right: 50px;
+    }
+
+    .promocode input {
+        width: 250px;
+    }
+}
+
+@media(max-width:800px) {
+    .cartitems {
+        margin: 40px 30px;
+    }
+
+    .cartitems-format-main {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        font-size: 12px;
+    }
+
+    .cartitems-quantity {
+        width: 35px;
+        height: 30px;
+    }
+
+    .cartitems-total {
+        margin-right: 20px;
+    }
+
+    .promocode input {
+        width: 200px;
+    }
+
+    .promocode {
+        align-items: flex-start;
+    }
+}
+
+@media(max-width:500px) {
+    .cartitems {
+        margin: 20px 10px;
+    }
+
+    .cartitems-format-main {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        font-size: 10px;
+    }
+
+    .cartitems-quantity {
+        width: 30px;
+        height: 25px;
+    }
+
+    .cartitems-total {
+        margin-right: 10px;
+    }
+
+    .promocode input {
+        width: 150px;
+    }
+
+    .promocode {
+        align-items: flex-start;
+    }
+}
+>>>>>>> 4ed2e08 (add admin folder and backend folder)

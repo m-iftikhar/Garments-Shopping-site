@@ -1,0 +1,101 @@
+.relatedproducts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+    gap: 10px;
+<<<<<<< HEAD
+
+}
+=======
+}
+
+>>>>>>> 4ed2e08 (add admin folder and backend folder)
+.relatedproducts h1{
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+}
+<<<<<<< HEAD
+.relateditems{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 30px;
+    margin-top: 30px
+
+}
+=======
+
+.relateditems{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+>>>>>>> 4ed2e08 (add admin folder and backend folder)
+.relatedproducts hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: #252525;
+<<<<<<< HEAD
+}
+=======
+}
+
+@media(max-width:1280px){
+    .relatedproducts h1{
+        font-size: 40px;
+    }
+    .relateditems{
+        gap: 20px;
+    }
+    .relatedproducts hr{
+        width: 160px;
+        height: 4px;
+    }
+}
+
+@media(max-width:1024px){
+    .relatedproducts h1{
+        font-size: 35px;
+    }
+    .relateditems{
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+    .relatedproducts hr{
+        width: 140px;
+        height: 4px;
+    }
+}
+
+@media(max-width:800px){
+    .relatedproducts h1{
+        font-size: 30px;
+    }
+    .relateditems{
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+    .relatedproducts hr{
+        width: 120px;
+        height: 3px;
+    }
+}
+
+@media(max-width:500px){
+    .relatedproducts h1{
+        font-size: 25px;
+    }
+    .relateditems{
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .relatedproducts hr{
+        width: 100px;
+        height: 3px;
+    }
+}
+>>>>>>> 4ed2e08 (add admin folder and backend folder)

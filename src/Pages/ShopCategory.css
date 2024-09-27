@@ -1,0 +1,126 @@
+<<<<<<< HEAD
+.banner{
+    display: block;
+    margin: 30px auto;
+    width: 82%;
+}
+.shopcategory-indexsort{
+=======
+.banner {
+    display: block;
+    margin: 30px auto;
+    width: 82%;
+  }
+  
+  .shopcategory-indexsort {
+>>>>>>> 4ed2e08 (add admin folder and backend folder)
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 170px;
+<<<<<<< HEAD
+}
+.category-sort{
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 1px solid #888;
+}
+.shopcategory-indexsort p span{
+    font-weight: 600;
+}
+.category-products{
+=======
+  }
+  
+  .category-sort {
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 1px solid #888;
+  }
+  
+  .shopcategory-indexsort p span {
+    font-weight: 600;
+  }
+  
+  .category-products {
+>>>>>>> 4ed2e08 (add admin folder and backend folder)
+    margin: 20px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 80px;
+    gap: 30px;
+<<<<<<< HEAD
+}
+.loadmore{
+=======
+  }
+  
+  .loadmore {
+>>>>>>> 4ed2e08 (add admin folder and backend folder)
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px auto;
+    width: 233px;
+    height: 69px;
+    border-radius: 75px;
+    background: #ededed;
+    color: #787878;
+    font-size: 18px;
+    font-weight: 500;
+<<<<<<< HEAD
+}
+=======
+  }
+  
+  @media (max-width: 1280px) {
+    .banner {
+      margin: 20px auto;
+      width: 90%;
+    }
+    .shopcategory-indexsort {
+      width: 90%;
+      margin: auto;
+    }
+    .category-sort {
+      padding: 5px 10px;
+      font-size: 12px;
+    }
+    .shopcategory-indexsort p {
+      font-size: 12px;
+    }
+    .category-products {
+      width: 90%;
+      margin: 10px auto;
+      row-gap: 40px;
+    }
+    .loadmore {
+      margin: 100px auto;
+      font-size: 16px;
+      width: 200px;
+      height: 60px;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .banner {
+      width: 95%;
+    }
+    .category-products {
+      width: 95%;
+    }
+    .loadmore {
+      margin: 100px auto;
+      font-size: 16px;
+      width: 170px;
+      height: 40px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .category-products {
+      grid-template-columns: 1fr 1fr; /* Two columns for small screens */
+    }
+  }
+  
+>>>>>>> 4ed2e08 (add admin folder and backend folder)
